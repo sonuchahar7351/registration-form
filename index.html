@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Form Using HTML & CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="sign-in">
+        <article class="sign-in_details">
+            <h1>Sign In</h1>
+            <p>Login to your accout using your credentials</p>
+            <form action="" class="sign-in_form">
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" placeholder="Enter your email" />
+                </div>
+                <div class="form_control">
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="password" placeholder="Enter your password" />
+                </div>
+                <div class="sign-in_extras">
+                    <div>
+                        <input type="checkbox" name="" id="remember" />
+                        <label for="remember">Remember Your Password</label>
+                    </div>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+                <button class="btn">
+                    <img src="images/google logo.png" alt="" />
+                    <p>Sign in with Google</p>
+                </button>
+            </form>
+            <small class="next-page">Don't have an account? <a href="signup.html">Sign Up</a></small>
+        </article>
+        <article class="sign-in_logo">
+            <div><img src="images/loginbg.png" alt=""/></div>
+        </article>
+    </section>
+</body>
+
+</html>
